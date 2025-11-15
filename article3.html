@@ -1,0 +1,186 @@
+h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: #b8a0ff;
+    }
+
+    .tab p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #ddd;
+      margin-bottom: 1rem;
+    }<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Free Speech Frontline</title>
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #2e0854;
+      color: #ddd;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background-color: #3b0f70;
+      padding: 1rem 2rem;
+      display: flex;
+      gap: 2rem;
+      font-weight: 600;
+      font-size: 1rem;
+      z-index: 100;
+    }
+    nav a {
+      color: #ddd;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #b8a0ff;
+    }
+
+    main {
+      scroll-snap-type: y mandatory;
+      overflow-y: scroll;
+      height: 100vh;
+    }
+
+    section {
+      min-height: 100vh;
+      padding: 4rem 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      scroll-snap-align: start;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #3b0f70 0%, #5e2ca5 50%, #6f42c1 100%);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 4rem 6rem;
+      gap: 4rem;
+      color: #e8d9ff;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+    }
+    .hero-text {
+      flex: 1;
+      font-size: 3.5rem;
+      font-weight: 300;
+      letter-spacing: 0.5px;
+      line-height: 1.3;
+    }
+    .hero-text span {
+      color: #ffffff;
+      font-weight: 600;
+    }
+    .hero-image {
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+    }
+    .hero-image img {
+      width: 280px;
+      height: 280px;
+      background: white;
+      padding: 2rem;
+      border-radius: 25px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+      user-select: none;
+      object-fit: contain;
+    }
+
+    .tab {
+      background: #3b0f70;
+      border-radius: 15px;
+      box-shadow: 0 0 15px #8a63d2aa;
+      padding: 3rem;
+      width: 90%;
+      max-width: 900px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#hero">Home</a>
+    <a href="#tab1">Islam: A Religion of Mercy?</a>
+    <a href="#tab2">Quranic Contradictions</a>
+    <a href="#tab3">Is Islam Fair to Women?</a>
+    <a href="#tab4">Debunking Quran Claims of Perfection</a>
+    <a href="#tab5">Islamic Homophobia</a>
+    <a href="#tab6">How is Islam a Cultist Religion?</a>
+    <a href="#tab7">Is Islam's Claims on God Logical?</a>
+  </nav>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-text">
+        Join us to a <span>world of free speech</span>
+      </div>
+      <div class="hero-image">
+        <img src="download.png" alt="Symbol Image" />
+      </div>
+    </section>
+
+    <section id="tab1">
+      <div class="tab">
+        <h2>Islam: A Religion of Mercy?</h2>
+        <!-- Add your article content here -->
+      </div>
+    </section>
+
+    <section id="tab2">
+      <div class="tab">
+        <h2>Quranic Contradictions</h2>
+        <!-- Add your article content here -->
+      </div>
+    </section>
+
+    <section id="tab3">
+      <div class="tab">
+        <h2>Is Islam Fair to Women?</h2>
+        <!-- Add your article content here -->
+      </div>
+    </section>
+
+    <section id="tab4">
+      <div class="tab">
+        <h2>Debunking Quran Claims of Perfection</h2>
+        <!-- Add your article content here -->
+      </div>
+    </section>
+
+    <section id="tab5">
+      <div class="tab">
+        <h2>Islamic Homophobia</h2>
+        <!-- Add your article content here -->
+      </div>
+    </section>
+
+    <section id="tab6">
+      <div class="tab">
+        <h2>How is Islam a Cultist Religion?</h2>
+        <!-- Add your article content here -->
+      </div>
+    </section>
+
+    <section id="tab7">
+      <div class="tab">
+        <h2>Is Islam's Claims on God Logical?</h2>
+        <!-- Add your article content here -->
+      </div>
+    </section>
+  </main>
+</body>
+</html>
